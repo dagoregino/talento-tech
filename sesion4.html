@@ -1,0 +1,93 @@
+<!-- asi se coloca un comentario en HTML-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sesion 4</title>
+    <!--para incrustar un estilo de css-->
+    <link rel = "stylesheet" href="css/estiloprincipal.css">
+    <!--con ctrl + espacio se coloca el link-->
+    <!--bootstrap es una pagina que me puede ayudar con la parte del diseño -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+ </head>
+ <body>
+    <!--ol es para listas ordenadas y li es un list item-->
+    <h1>mis pokemon favoritos</h1>
+    <ol>
+        <li>lycanroc crepuscular</li>
+        <li>sylvally</li>
+        <li>lucario</li>
+        <li>zeraora</li>
+        <li>eevee</li>
+    </ol>
+    <p>en mi lista puede variar desde el segundo al cuarto puesto </p>
+    <!--start = "X" es para decir desde que numero inicia una lista ordenada-->
+    <ol start ="6">
+        <li>absol</li>
+        <li>zoroark</li>
+        <li>sceptile</li>
+        <li>darkrai</li>
+    </ol>
+    <h1>pokemon que mas me molestan en pokemon unite</h1>
+    <!--ol reversed es para que la lista vaya de atras a adelante -->
+    <!--el start aplica tambien para listas reversed-->
+    <ol start ="5" reversed >
+        <li>psyduck</li>
+        <li>suicune</li>
+        <li>wigglytuff</li>
+       
+    </ol>
+    <p>y ahora los dos mas fastidiosos</p>
+    
+    <ol start="2" reversed>
+        <li>blastoise</li>
+        <li>mamoswine</li>
+    </ol>
+    <h1>roles en pokemon unite</h1>
+    <ul>
+        <li>auxiliar</li>
+        <li>agil</li>
+        <li>defensivo</li>
+        <li>ofensivo</li>
+        <li>equilibrado</li>
+    </ul>
+    <h1>mapas de clasificatoria</h1>
+    <!--para colocar terminos se utiliza dl y dt para colocar un termmino y dd para su definicion-->
+    <dl>
+        <dt>estadio maremagno:</dt>
+        <dd>fue el primer mapa de clasificatoria que se lanzo y cuenta con zapdos en la recta final</dd>
+        <dt>ruina celestes de tea:</dt>
+        <dd>fue el segundo mapa de clasificatoria y cuenta con rayquaza en la recta final</dd>
+    </dl>
+    <!--se utiliza table para colocar tablas-->
+    <table border="3">
+    <!--tr es para definir filas-->
+    <!--th es para definir el valor en el head y td es para definir un valor en cualquier celda y agregar columna-->
+        <thead>
+            <tr>
+            <th>pokemon</th>
+            <th>rol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lucario</td>
+                <td>equilibrado</td>
+            </tr>
+            <tr>
+                <td>zeraora</td>
+                <td>agil</td>
+            </tr>
+            <tr>
+                <td>darkrai</td>
+                <td>agil</td>
+            </tr>
+            <tr>
+                <td>absol</td>
+                <td>agil</td>
+            </tr>
+        </tbody>
+    </table>
+ </body>
+ </html>

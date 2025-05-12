@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(215, 187, 116);
+
+}
+ul{
+    list-style-type: square;
+}
+thead{
+    background-color: rgb(181, 130, 67);
+    color: rgb(0, 0, 0);
+}
+tbody{
+background-color: rgb(254, 233, 202);
+color: brown;}

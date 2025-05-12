@@ -1,0 +1,66 @@
+
+h1{ text-align: center;
+    color: rgb(83, 13, 168);
+}
+/*se usa el # para elegir en id */
+#titulo2{
+    text-align: center;
+    color: brown;
+}
+/*se usa . para elegir en class*/
+.subtitulo {
+    color: blue;
+}
+.campom {
+    font-weight: bold;background-color: beige;
+
+}
+.campomt {
+    font-style: italic !important;
+    background-color: rgb(61, 226, 43);
+}
+.productoc{
+    text-decoration: underline;
+background-color: rgb(237, 157, 213) !important;
+}
+/* con la coma puedes agregar todo lo que quiera colocar en varias cosas*/
+ p, h1{ 
+    font-style: inherit;
+ }
+ #fuerzam {
+   
+    background-color: beige;
+    border: 2px solid red;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 32%;
+    position: relative;
+    /*el relative es respecto a la pagina*/
+    /*con el static no se hace ningun cambio*/
+    /*el absolute se posiciona respecto al flujo o respecto a un elemento*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ #reglamanod {
+   
+    background-color: beige;
+    border: 2px solid red;
+    padding: 10px;
+    width: 400px;
+    height: 850px;
+    margin-left: 32%;
+    position: relative;
+ }
+ /*aqui en contenedor tengo un div dentro de div y se aplica en general a ambas*/
+ #contenedor {
+    /*felx es como si fuera una caja flexible y todo lo que esta adentro se mueve en conjunto*/
+    display: flex;
+    /*el justify distribuye dependiendo a la caracteristica*/
+    justify-content: right;
+    flex-direction: column;
+
+ }
+#puntoyx {
+    list-style-type: square;
+ }

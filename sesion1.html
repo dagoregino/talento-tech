@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sesion 1 variables</title>
+</head>
+<body>
+    <h1>operaciones matematicas</h1>
+    <script>
+        //ejercicio 1 sesion 1
+        alert("hola desde js");
+        console.log("hola desde js");
+
+        let edad=18;
+        let nombre="dago regino";
+        let esEstudiante=true;
+
+        alert("mi edad es "+ edad+"años");
+        console.log ("mi edad es " ,edad, "años");
+        alert("mi nombre es "+ nombre);
+        console.log ("mi nombre es ", nombre);
+
+        //ejercicio dos de la sesion 1
+        let a=10;
+        let b=9;
+
+        let suma = a + b;
+        let resta = a-b;
+        let multiplicacion = a*b;
+        let division = a/b;
+
+        console.log ("la suma es: " ,suma);
+        alert ("la suma es: " + suma)
+   
+        console.log ("la resta es: " ,resta);
+        alert("la resta es: " + resta);
+
+        console.log ("el producto es: " ,multiplicacion);
+        alert("el producto es: "+ multiplicacion);
+
+        console.log ("la division es: ",division);
+        alert("la division es "+ division);
+
+        //ejercicio 3 de la sesion 1 (operadores de comparacion)
+
+        // == devuelve verdadero o falso si los valores son iguales
+        //!= diferente de 
+        let c= 2;
+        let d= 3;
+
+        console.log ("c es igual a d ?" , c==d);
+        alert("c es igual a d ? " +(c==d));
+
+        console.log("c es diferente a d?" ,c!=d);
+        alert("c es diferente a d? " +(c!=d));
+
+        console.log("c es mayor que d?" ,c>d);
+        alert("c es mayor que d?" +(c>d));
+
+        console.log("c es mayor o igual que d?" ,c>=d);
+        alert("c es mayor o igual que d?" +(c>=d));
+
+        console.log("c es menor que d?" ,c<d);
+        alert("c es menor que d?" +(c<d));
+        
+        console.log("c es menor o igual que d?" ,c<=d);
+        alert("c es menor o igual que d?" +(c<=d));
+        
+        //ejercicio 4 sesion 1 (operadores logicos)
+        // and-> &&
+        // or-> ||
+
+        let isAdulto = true;
+        let isPermiso = false;
+        let puedeEntrar = isAdulto && isPermiso; 
+        let puedeSalir = isAdulto|| isPermiso;
+
+        console.log ("puede entrar?" ,puedeEntrar);
+        alert("puede entrar? " +puedeEntrar);
+
+        console.log ("puede salir?" ,puedeSalir);
+        alert("puede salir? " +puedeSalir);
+
+        //ejercicio 5 sesion 1 (template literals o formas de concatenar texto en Js)
+
+        let nombre2 = "esteban";
+        let apellido2 = "henriquez";
+
+        let saludo = "hola, " + nombre2 + " " + apellido2 + "!";
+        console.log (saludo);
+        alert(saludo);
+        
+        let saludoConTemplate = `hola, ${nombre2} ${apellido2}!`
+        console.log(saludoConTemplate);
+        alert(saludoConTemplate);
+
+    </script>
+</body>
+</html>
